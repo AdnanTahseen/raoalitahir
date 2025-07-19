@@ -1,0 +1,237 @@
+* {
+    box-sizing: border-box;
+}
+
+.author {
+    width: 100%;
+    padding: 0px;
+    display: flex;
+    gap: 20px;
+    height: 70vh;
+    background-color: #c0bfbf;
+    margin-top: 80px;
+
+    .description {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        height: inherit;
+
+        h2 {
+            color: #756c03;
+        }
+
+        .company-name {
+            color: #0ea2d3;
+        }
+
+        .about-me-btn {
+            padding: 10px;
+            color: white;
+            border: 1px solid lightblue;
+            background-color: darkblue;
+            border-radius: 20px;
+        }
+
+        .about-me-btn:hover {
+            background-color: #0ea2d3;
+            color: #ffffff;
+        }
+
+    }
+
+    .profile-logo {
+        width: 50%;
+        height: inherit;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+
+        .logo {
+            height: 92vh;
+            object-fit: contain;
+        }
+    }
+}
+
+@media (max-width: 1200px) and (min-width:1024px) {
+    .author {
+        .description {
+            padding: 5px;
+            width: inherit;
+            height: inherit;
+
+            h3 {
+                font-size: 24px;
+            }
+
+            h4 {
+                font-size: 22px;
+            }
+
+            h2 {
+                font-size: 26px;
+            }
+        }
+
+        .profile-logo {
+            .logo {
+                height: 100vh;
+                object-fit: contain;
+            }
+        }
+
+
+    }
+}
+
+//  1024 and 992
+@media (max-width: 1023px) and (min-width:992px) {
+    .author {
+        .description {
+            padding: 5px;
+            width: inherit;
+            height: inherit;
+
+            h3 {
+                font-size: 22px;
+            }
+
+            h4 {
+                font-size: 20px;
+            }
+
+            h2 {
+                font-size: 24px;
+            }
+        }
+
+        .profile-logo {
+            .logo {
+                height: 90vh;
+                object-fit: contain;
+            }
+        }
+
+
+    }
+}
+
+//  991 and 768
+@media (max-width: 991px) and (min-width:768px) {
+    .author {
+        .description {
+            padding: 5px;
+            width: inherit;
+            height: inherit;
+
+            h3 {
+                font-size: 20px;
+            }
+
+            h4 {
+                font-size: 18px;
+            }
+
+            h2 {
+                font-size: 22px;
+            }
+        }
+
+        .profile-logo {
+            .logo {
+                height: 92vh;
+                object-fit: contain;
+            }
+        }
+
+
+    }
+}
+
+//  767 and 576
+@media (max-width: 767px) and (min-width:576px) {
+    .author {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 120vh;
+        .description {
+            padding: 5px;
+            width: inherit;
+            height: 50%;
+
+            h3 {
+                font-size: 18px;
+            }
+
+            h4 {
+                font-size: 16px;
+            }
+
+            h2 {
+                font-size: 20px;
+            }
+        }
+
+        .profile-logo {
+            height: 80vh;
+            .logo {
+                height: 100vh;
+                object-fit: contain;
+            }
+        }
+
+
+    }
+}
+
+//  less 576
+@media (max-width: 575px) {
+    .author {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 120vh;
+        .description {
+            padding: 5px;
+            width: inherit;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            h3 {
+                font-size: 16px;
+                text-align: center;
+            }
+
+            h4 {
+                font-size: 14px;
+                text-align: center;
+            }
+
+            h2 {
+                font-size: 18px;
+            }
+        }
+
+        .profile-logo {
+            height: 100%;
+            width: 100%;
+            .logo {
+                height: 80vh;
+                object-fit: contain;
+            }
+        }
+
+
+    }
+}

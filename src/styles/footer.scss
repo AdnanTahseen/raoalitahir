@@ -1,0 +1,38 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    // border: 1px solid green;
+    background-color: var(--footer-background-color);
+
+    .footer-container {
+        width: 100%;
+        // border: 1px solid blue;
+        padding: 10px;
+
+        .header-social-links {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+
+            a {
+                margin: 5px;
+                border: 1px solid grey;
+                padding: 5px;
+                border-radius: 50%;
+                color: grey;
+            }
+        }
+
+        .credits {
+            margin: 7px;
+            text-align: center;
+        }
+
+        .credits>* {
+            text-decoration: none;
+        }
+    }
+}
