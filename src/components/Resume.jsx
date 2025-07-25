@@ -21,23 +21,23 @@ const Resume = () => {
               <p><em>Creative and detail-oriented Web Developer with hands-on experience in designing, developing, and maintaining responsive and user-friendly websites and web applications. Proficient in front-end and back-end technologies including HTML, CSS, JavaScript, ReactJS, Angular, and ASP.NET Core. Passionate about clean code, performance optimization, and delivering seamless user experiences. Skilled in version control, API integration, and deploying web solutions across various platforms.</em></p>
               <ul>
                 <li>Lahore, Punjab, Pakistan</li>
-                <li>+923211234567</li>
-                <li>raoalitahir@gmail.com</li>
+                <li>+923040459062</li>
+                <li>rao.alitahir001@gmail.com</li>
               </ul>
             </div>
 
             <h3 className="resume-title">Education</h3>
-            <div className="resume-item">
+            {/* <div className="resume-item">
               <h4>Faculty of Science in Pre-Engineering (F.Sc)</h4>
               <h5>2016 - 2018</h5>
               <p><em>Superior Group of College, Pakpattan Sharif</em></p>
               <p>Qualified in Faculty of Science with a focus on Pre-Engineering, gaining a strong foundation in Mathematics, Physics, and Chemistry. This academic background has equipped me with analytical thinking, problem-solving skills, and a technical mindset, preparing me for further studies and careers in engineering, technology, and applied sciences.</p>
-            </div>
+            </div> */}
 
             <div className="resume-item">
               <h4>BS Computer Science (BSCS)</h4>
               <h5>2018 - 2022</h5>
-              <p><em>Superior Group of College, Pakpattan Sharif</em></p>
+              <p><em>Government College University, Faisalabad</em></p>
               <p>Qualified with a Bachelor of Science (BS) in Computer Science, with a solid foundation in programming, data structures, algorithms, databases, and software development. Gained hands-on experience through academic projects and practical coursework in web development, system design, and emerging technologies. Well-prepared to tackle real-world challenges in software engineering, application development, and IT solutions.</p>
             </div>
 
@@ -56,29 +56,17 @@ const Resume = () => {
                 <li>Identified new market opportunities and expanded the client base.</li>
                 <li>Collaborated with tech teams to align solutions with client needs.</li>
                 <li>Created and presented tailored software proposals and demos.</li>
-                <li>Monitored sales pipeline and optimized conversion rates.</li>
-                <li>Conducted market research to support product positioning.</li>
+                {/* <li>Monitored sales pipeline and optimized conversion rates.</li> */}
+                {/* <li>Conducted market research to support product positioning.</li> */}
                 <li>Negotiated contracts and closed high-value deals.</li>
                 <li>Played a key role in driving revenue growth and brand presence.</li>
+                <li>Drives growth by identifying opportunities, building partnerships, and expanding market reach.</li>
+                <li>Sells tech solutions with a consultative approach, aligning products to client needs.</li>
+                <li>Crafts high-converting campaigns using segmentation, automation, and multi-channel strategies.</li>
+                <li>Designs targeted, automated campaigns to nurture leads and accelerate conversions.</li>
+                <li>Leverages LinkedIn for prospecting, engagement, and personal branding to generate B2B leads.</li>
               </ul>
             </div>
-
-            <div className="resume-item">
-              <h4>Graphic design specialist</h4>
-              <h5>2020 - Present (Part-time) </h5>
-              <p><em>Stepping Stone Advertising, Lahore, Punjab</em></p>
-              <ul>
-                <li>Creative and detail-oriented Graphic Design Specialist with a strong visual sense.</li>
-                <li>Proficient in Adobe Creative Suite (Photoshop, Illustrator, InDesign).</li>
-                <li>Designed logos, branding materials, brochures, and social media graphics.</li>
-                <li>Transformed concepts into visually appealing designs that align with brand identity.</li>
-                <li>Collaborated with marketing and content teams to deliver impactful visuals.</li>
-                <li>Experienced in both print and digital design projects.</li>
-                <li>Maintained consistency across all visual assets and campaigns.</li>
-                <li>Adapted designs based on feedback and project requirements.</li>
-              </ul>
-            </div>
-
           </div>
 
         </div>

@@ -5,14 +5,14 @@ const Section1 = () => {
     <section id="about" className="about section">
       <div className="container section-title" data-aos="fade-up">
         <h2>About</h2>
-        <p>I am professional business developer in PureLogics, Pvt Limited</p>
+        <p>I am professional <span style={{color:'crimson'}}>Business Developer</span> </p>
       </div>
 
       <div className="container intro-container" data-aos="fade-up" data-aos-delay="100">
 
         <div className="row gy-4 justify-content-center">
           <div className="col-lg-4 image-div">
-            <img src="images/ali_rao_ai.png" className="img-fluid" alt="" />
+            <img src="images/Author.png" className="img-fluid" alt="" />
           </div>
           <div className="col-lg-8 content">
             <h2>Business Developer &amp; Lead Generation Strategist</h2>
@@ -22,18 +22,18 @@ const Section1 = () => {
             <div className="row">
               <div className="col-lg-6">
                 <ul>
-                  <li><i className="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>1 May 1999</span></li>
-                  <li><i className="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.raoalitahir.com</span></li>
-                  <li><i className="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+923211234567</span></li>
+                  {/* <li><i className="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>1 May 1999</span></li>
+                  <li><i className="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.raoalitahir.com</span></li> */}
+                  <li><i className="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+923040459062</span></li>
                   <li><i className="bi bi-chevron-right"></i> <strong>City:</strong> <span>Lahore, Punjab, Pakistan</span></li>
                 </ul>
               </div>
               <div className="col-lg-6">
                 <ul>
-                  <li><i className="bi bi-chevron-right"></i> <strong>Age:</strong> <span>26</span></li>
-                  <li><i className="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>BSCS</span></li>
-                  <li><i className="bi bi-chevron-right"></i> <strong>Email:</strong> <span>raoalitahir@gmail.com</span></li>
-                  <li><i className="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+                  {/* <li><i className="bi bi-chevron-right"></i> <strong>Age:</strong> <span>26</span></li> */}
+                  {/* <li><i className="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>BSCS</span></li> */}
+                  <li><i className="bi bi-chevron-right"></i> <strong>Email:</strong> <span>rao.alitahir001@gmail.com</span></li>
+                  <li><i className="bi bi-chevron-right"></i> <strong>LinkedIn Profile:</strong> <span> <a href="https://www.linkedin.com/in/raoalitahir?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BqUE0he5CRS%2BKvCblimihCA%3D%3D" target='_blank' rel='noreferrer'>Rao Ali Tahir</a> </span></li>
                 </ul>
               </div>
             </div>

@@ -3,16 +3,28 @@ import { FaHtml5, FaCss3, FaJav, FaJsSquare, FaPhp, FaWordpress, FaPhotoVideo } 
 
 const SkillsSection = () => {
     const skills = [
-        { name: 'HTML', level: 80 },
-        { name: 'PHP', level: 65 },
-        { name: 'CSS', level: 70 },
-        { name: 'WORDPRESS/CMS', level: 75 },
-        { name: 'JAVASCRIPT', level: 85 },
-        { name: 'PHOTOSHOP', level: 70 },
+        { name: 'LinkedIn', level: 80 },
+        { name: 'Email Marketing', level: 90 },
+        { name: 'Fiverr', level: 80 },
+        { name: 'Sales Navigator', level: 85 },
+        { name: 'Email Compaign', level: 85 },
+        { name: 'Upwork', level: 80 },
+        { name: 'Lead Generation', level: 95 },
+        { name: 'Email Verification', level: 90 },
+        { name: 'B2B', level: 80 },
+        { name: 'New Client Acquisition', level: 90 },
+        { name: 'Email Validation', level: 90 },
+        { name: 'C2C', level: 85 },
+        { name: 'Lead Nurturing', level: 85 },
+        { name: 'A/B Testing Expertise', level: 80 },
+        { name: 'Hire a Dev (Staff Augmentation)', level: 80 },
+        { name: 'Data Scraping', level: 90 },
+        { name: 'Account Management', level: 80 },
+        { name: 'CRM Management', level: 80 },
     ];
     return (
         <div className="skills-section" data-aos="fade-right">
-            <h4>My Additional Skills</h4>
+            <h4>My Expertise in following domains:</h4>
             <div className="skills-list">
                 {skills.map((skill, index) => (
                     <div key={index} className="skill-item">

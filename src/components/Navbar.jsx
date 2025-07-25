@@ -28,8 +28,8 @@ const Navbar = () => {
             <div className='left'>
                 <div className="logo-div">
                     <Link to='/' className='logo-brand'>
-                        <img src="/images/Rao Ali Tahir.png" alt="" className='profile-logo' />
-                        <span>Rao Ali Tahir</span>
+                        <img src="/images/Author.png" alt="" className='profile-logo' />
+                        <span>Lead Generation Strategist</span>
                     </Link>
 
                 </div>

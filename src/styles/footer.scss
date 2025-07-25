@@ -20,11 +20,16 @@
             a {
                 margin: 5px;
                 border: 1px solid grey;
-                padding: 5px;
+                padding: 5px 10px;
                 border-radius: 50%;
                 color: grey;
             }
+            a:hover{
+                color: blue;
+                border-color: blue;
+            }
         }
+        
 
         .credits {
             margin: 7px;

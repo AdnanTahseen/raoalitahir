@@ -50,7 +50,7 @@ const Projects = () => {
   return (
     <section className="projects" id="projects">
       <div className="container">
-        <h2 className="section-title">A Glimpse of Projects offered by my Company</h2>
+        <h2 className="section-title">A Glimpse of Projects offered to Clients</h2>
         <div className="projects-grid">
           {projects.map((project) => (
             <div className="project-card" key={project.id}>

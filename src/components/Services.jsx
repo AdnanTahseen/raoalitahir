@@ -2,7 +2,7 @@ import './services.scss';
 
 const Services = () => {
   return (
-     <section id="services" className="services section">
+    <section id="services" className="services section">
       <div className="container section-title" data-aos="fade-up">
         <h2>Services</h2>
         <p>I provide following services that focus on identifying growth opportunities, generating qualified leads, and building strategic partnerships. My these services help businesses expand their client base, increase revenue, and strengthen market presence.</p>
@@ -104,7 +104,58 @@ const Services = () => {
               <a href="#" className="stretched-link"></a>
             </div>
           </div>
-
+          <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div className="service-item item-pink position-relative">
+              <div className="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,566.797414625762C385.7384707136149,576.1784315230908,478.7894351017131,552.8928747891023,531.9192734346935,484.94944893311C584.6109503024035,417.5663521118492,582.489472248146,322.67544863468447,553.9536738515405,242.03673114598146C529.1557734026468,171.96086150256528,465.24506316201064,127.66468636344209,395.9583748389544,100.7403814666027C334.2173773831606,76.7482773500951,269.4350130405921,84.62216499799875,207.1952322260088,107.2889140133804C132.92018162631612,134.33871894543012,41.79353780512637,160.00259165414826,22.644507872594943,236.69541883565114C3.319112789854554,314.0945973066697,72.72355303640163,379.243833228382,124.04198916343866,440.3218312028393C172.9286146004772,498.5055451809895,224.45579914871206,558.5317968840102,300,566.797414625762"></path>
+                </svg>
+                <i className="bi bi-chat-square-text"></i>
+              </div>
+              <a href="#" className="stretched-link">
+                <h3> Drip Compaigns</h3>
+              </a>
+              <p>Drip campaigns are automated, scheduled email sequences that deliver targeted content to subscribers over time, nurturing leads and guiding them through the customer journey.
+                These campaigns allow businesses to engage users with personalized messages based on triggers like sign-ups, purchases, or inactivity, improving conversions.
+                By delivering the right message at the right time, drip campaigns help build relationships, increase retention, and drive sales without manual effort.</p>
+              <a href="#" className="stretched-link"></a>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div className="service-item item-pink position-relative">
+              <div className="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,566.797414625762C385.7384707136149,576.1784315230908,478.7894351017131,552.8928747891023,531.9192734346935,484.94944893311C584.6109503024035,417.5663521118492,582.489472248146,322.67544863468447,553.9536738515405,242.03673114598146C529.1557734026468,171.96086150256528,465.24506316201064,127.66468636344209,395.9583748389544,100.7403814666027C334.2173773831606,76.7482773500951,269.4350130405921,84.62216499799875,207.1952322260088,107.2889140133804C132.92018162631612,134.33871894543012,41.79353780512637,160.00259165414826,22.644507872594943,236.69541883565114C3.319112789854554,314.0945973066697,72.72355303640163,379.243833228382,124.04198916343866,440.3218312028393C172.9286146004772,498.5055451809895,224.45579914871206,558.5317968840102,300,566.797414625762"></path>
+                </svg>
+                <i className="bi bi-chat-square-text"></i>
+              </div>
+              <a href="#" className="stretched-link">
+                <h3>Designing Effective ABM</h3>
+              </a>
+              <p>Designing Effective ABM (Account-Based Marketing) involves identifying high-value target accounts and tailoring personalized campaigns to engage key decision-makers with relevant messaging.
+                It combines data-driven insights with hyper-personalized content, aligning marketing and sales efforts to deliver a seamless, account-specific experience.
+                Successful ABM focuses on building strong relationships, delivering value at each touchpoint, and measuring engagement to optimize ROI.</p>
+              <a href="#" className="stretched-link"></a>
+            </div>
+          </div>
+          {/* ================================== */}
+          <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div className="service-item item-pink position-relative">
+              <div className="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,566.797414625762C385.7384707136149,576.1784315230908,478.7894351017131,552.8928747891023,531.9192734346935,484.94944893311C584.6109503024035,417.5663521118492,582.489472248146,322.67544863468447,553.9536738515405,242.03673114598146C529.1557734026468,171.96086150256528,465.24506316201064,127.66468636344209,395.9583748389544,100.7403814666027C334.2173773831606,76.7482773500951,269.4350130405921,84.62216499799875,207.1952322260088,107.2889140133804C132.92018162631612,134.33871894543012,41.79353780512637,160.00259165414826,22.644507872594943,236.69541883565114C3.319112789854554,314.0945973066697,72.72355303640163,379.243833228382,124.04198916343866,440.3218312028393C172.9286146004772,498.5055451809895,224.45579914871206,558.5317968840102,300,566.797414625762"></path>
+                </svg>
+                <i className="bi bi-chat-square-text"></i>
+              </div>
+              <a href="#" className="stretched-link">
+                <h3>LinkedIn Specialist.</h3>
+              </a>
+              <p>LinkedIn Specialist helping brands and professionals amplify their presence through data-driven strategies, engaging content, and targeted campaigns that drive leads and growth.
+                Expertise in LinkedIn Ads, organic growth, and Sales Navigator to build authority, nurture B2B relationships, and convert connections into customers.
+                Passionate about turning LinkedIn into a high-impact sales and branding channel—measured by increased engagement, follower growth, and revenue-driven results.</p>
+              <a href="#" className="stretched-link"></a>
+            </div>
+          </div>
         </div>
 
       </div>

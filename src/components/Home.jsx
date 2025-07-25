@@ -20,16 +20,16 @@ const Home = () => {
         <div className='author'>
                 <div className="description" data-aos='fade-right'>
                         <h3>Hi there, I am a professional Business Developer</h3>
-                        <h4>Currently working in <span className='company-name'>PureLogics, Pvt Limited</span></h4>
+                        {/* <h4>Currently working in <span className='company-name'>PureLogics, Pvt Limited</span></h4> */}
                         <h2>Rao Ali Tahir</h2>
                         
-                        <h3>Freelancer <span ref={textRef} style={{color:'blueviolet'}}></span></h3>
+                        <h3><span ref={textRef} style={{color:'blueviolet'}}></span></h3>
                         <button className='about-me-btn'>
                         <Link to='/about' style={{textDecoration:'none'}}>About Me</Link>
                         </button>
                 </div>
                 <div className="profile-logo" data-aos='fade-up'>
-                    <img src="images/ali_rao_ai.png" alt="Rao Ali Tahir" className='logo'/>
+                    <img src="images/Author.png" alt="Rao Ali Tahir" className='logo'/>
                 </div>
         </div>
     );
