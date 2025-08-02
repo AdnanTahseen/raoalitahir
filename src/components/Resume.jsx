@@ -16,7 +16,7 @@ const Resume = () => {
           <div className="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <h3 className="resume-title">Sumary</h3>
 
-            <div className="resume-item pb-0">
+            {/* <div className="resume-item pb-0">
               <h4>Web Developer</h4>
               <p><em>Creative and detail-oriented Web Developer with hands-on experience in designing, developing, and maintaining responsive and user-friendly websites and web applications. Proficient in front-end and back-end technologies including HTML, CSS, JavaScript, ReactJS, Angular, and ASP.NET Core. Passionate about clean code, performance optimization, and delivering seamless user experiences. Skilled in version control, API integration, and deploying web solutions across various platforms.</em></p>
               <ul>
@@ -24,7 +24,7 @@ const Resume = () => {
                 <li>+923040459062</li>
                 <li>rao.alitahir001@gmail.com</li>
               </ul>
-            </div>
+            </div> */}
 
             <h3 className="resume-title">Education</h3>
             {/* <div className="resume-item">
@@ -38,7 +38,25 @@ const Resume = () => {
               <h4>BS Computer Science (BSCS)</h4>
               <h5>2018 - 2022</h5>
               <p><em>Government College University, Faisalabad</em></p>
-              <p>Qualified with a Bachelor of Science (BS) in Computer Science, with a solid foundation in programming, data structures, algorithms, databases, and software development. Gained hands-on experience through academic projects and practical coursework in web development, system design, and emerging technologies. Well-prepared to tackle real-world challenges in software engineering, application development, and IT solutions.</p>
+              <p>
+                Gained a solid foundation in programming, data structures, algorithms, databases, and software development.
+
+                Completed hands-on academic projects in web development, system design, and emerging technologies.
+
+                Acquired experience in full-stack development, using modern frameworks and tools.
+
+                Learned and applied agile methodologies and version control systems like Git.
+
+                Focused on writing clean, maintainable code aligned with real-world software practices.
+
+                Explored the software development lifecycle through practical coursework and team collaboration.
+
+                Studied IT project management, entrepreneurship, and business strategy as part of business development modules.
+
+                Gained the ability to align technical solutions with business goals.
+
+                Developed a multidisciplinary approach to solving both technical and business challenges.
+              </p>
             </div>
 
           </div>
@@ -54,12 +72,12 @@ const Resume = () => {
                 <li>Specialized in B2B client acquisition and lead generation.</li>
                 <li>Built and maintained long-term relationships with key clients.</li>
                 <li>Identified new market opportunities and expanded the client base.</li>
-                <li>Collaborated with tech teams to align solutions with client needs.</li>
+                {/* <li>Collaborated with tech teams to align solutions with client needs.</li>
                 <li>Created and presented tailored software proposals and demos.</li>
-                {/* <li>Monitored sales pipeline and optimized conversion rates.</li> */}
-                {/* <li>Conducted market research to support product positioning.</li> */}
+                <li>Monitored sales pipeline and optimized conversion rates.</li>
+                <li>Conducted market research to support product positioning.</li>
                 <li>Negotiated contracts and closed high-value deals.</li>
-                <li>Played a key role in driving revenue growth and brand presence.</li>
+                <li>Played a key role in driving revenue growth and brand presence.</li> */}
                 <li>Drives growth by identifying opportunities, building partnerships, and expanding market reach.</li>
                 <li>Sells tech solutions with a consultative approach, aligning products to client needs.</li>
                 <li>Crafts high-converting campaigns using segmentation, automation, and multi-channel strategies.</li>

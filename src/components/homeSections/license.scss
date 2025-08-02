@@ -1,0 +1,181 @@
+.certificate {
+    width: 100%;
+    padding: 30px;
+    background-color: #333131;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    // border: 1px solid white;
+
+    h2 {
+        margin: 0px auto 0px;
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 40px;
+    }
+
+    .certificate_sections {
+        display: flex;
+        flex-direction: row;
+        padding: 50px;
+        row-gap: 20px;
+        // border: 1px solid white;
+
+        .license {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            width: 50%;
+            margin: 10px;
+            border-radius: 15px;
+            background-color: #1d0208;
+            box-shadow: 2px 2px 6px 2px #0a0a13;
+            
+            caption{
+                color: white;
+                font-size: 26px;
+            }
+            img {
+                width: 100%;
+                height: 600px;
+                
+            }
+            ul{
+                margin: 0;
+                padding: 5px;
+                list-style: none;
+                // border: 1px solid white;
+                display: block;
+                width: 100%;
+                overflow: hidden;
+                li{
+                    // display: block;
+                    width: 100%;
+                    padding: 5px;
+                    background: linear-gradient(to right top, #1d0208,#3f0838,#6d6609);
+                    margin: 3px;
+                    color: #ffffff;
+                    font-size: 18px;
+                    text-align: center;
+                    font-weight: bold;
+                    cursor: pointer;
+                }
+                li:hover{
+                    background: linear-gradient(to left top, #1d0208,#3f0838,#6d6609);
+                    letter-spacing: 1px;
+                }
+            }
+        }
+   
+    }
+    @media screen and (max-width: 1024px) {
+        padding: 20px;
+        h2 {
+            font-size: 35px;
+        }
+        .certificate_sections {
+            flex-direction: column;
+            padding: 30px;
+
+            .license {
+                width: 100%;
+                margin: 10px 0;
+            }
+            img {
+                height: auto;
+                max-height: 500px;
+            }
+            caption {
+                font-size: 24px;
+            }
+            ul {
+                li {
+                    font-size: 16px;
+                }
+            }
+        }
+        
+    }
+    @media screen and (max-width: 992px) {
+        padding: 20px;
+        h2 {
+            font-size: 32px;
+        }
+        .certificate_sections {
+            flex-direction: column;
+            padding: 30px;
+
+            .license {
+                width: 100%;
+                margin: 10px 0;
+            }
+            img {
+                height: auto;
+                max-height: 450px;
+            }
+            caption {
+                font-size: 22px;
+            }
+            ul {
+                li {
+                    font-size: 16px;
+                }
+            }
+        }
+        
+    }
+    @media screen and (max-width: 768px) {
+        .certificate_sections {
+            flex-direction: column;
+            padding: 20px;
+
+            .license {
+                width: 100%;
+                margin: 10px 0;
+            }
+            img {
+                height: auto;
+                max-height: 400px;
+            }
+            caption {
+                font-size: 20px;
+            }
+            ul {
+                li {
+                    font-size: 16px;
+                }
+            }
+        }
+        
+    }
+    @media screen and (max-width: 480px) {
+        padding: 20px;
+        h2 {
+            font-size: 30px;
+        }
+        .certificate_sections {
+            padding: 10px;
+
+            .license {
+                width: 100%;
+                margin: 5px 0;
+            }
+            img {
+                height: auto;
+                max-height: 300px;
+            }
+            caption {
+                font-size: 18px;
+            }
+            ul {
+                li {
+                    font-size: 14px;
+                }
+            }
+        }
+        
+    }
+}

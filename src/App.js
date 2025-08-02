@@ -1,18 +1,18 @@
 // import logo from './logo.svg';
-import './App.css';
-import { Routes, Route } from 'react-router-dom';
-import Home from './components/Home';
-import About from './components/About';
-import Projects from './components/Projects';
-import Resume from './components/Resume';
-import Services from './components/Services';
-import PageNotFound from './components/PageNotFound';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
-import Contact from './components/Contact';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
+import { Route, Routes } from 'react-router-dom';
+import './App.css';
+import About from './components/About';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+import Home from './components/Home';
+import Navbar from './components/Navbar';
+import PageNotFound from './components/PageNotFound';
+import Projects from './components/Projects';
+import Resume from './components/Resume';
+import Services from './components/Services';
 
 function App() {
 
@@ -26,7 +26,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <main style={{ Height: '100vh', marginTop: '5px', marginBottom: '0px' }}>
+      <main style={{ Height: '100vh', marginTop: '0px', marginBottom: '0px' , backgroundColor:' #000000bb'}}>
         <Routes>
           <Route path='/' element={<Home />}></Route>
           <Route path='/about' element={<About />}></Route>

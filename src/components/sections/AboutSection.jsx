@@ -5,7 +5,7 @@ const Section1 = () => {
     <section id="about" className="about section">
       <div className="container section-title" data-aos="fade-up">
         <h2>About</h2>
-        <p>I am professional <span style={{color:'crimson'}}>Business Developer</span> </p>
+        <p>I am a <span style={{color:'#B5A8D5'}}>professional Business Developer</span> </p>
       </div>
 
       <div className="container intro-container" data-aos="fade-up" data-aos-delay="100">

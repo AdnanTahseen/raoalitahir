@@ -25,14 +25,12 @@ const Navbar = () => {
 
     return (
         <nav id="navmenu" className="navmenu">
-            <div className='left'>
-                <div className="logo-div">
-                    <Link to='/' className='logo-brand'>
-                        <img src="/images/Author.png" alt="" className='profile-logo' />
-                        <span>Lead Generation Strategist</span>
-                    </Link>
 
-                </div>
+            <div className='left'>
+                <Link to='/' className='logo-brand'>
+                    <img src="/images/Author.png" alt="" className='profile-logo' />
+                    <span>Business Developer</span>
+                </Link>
             </div>
             <div className='middle-nav middle' ref={middleRefBar}>
                 <ul>
@@ -45,12 +43,10 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="right">
-                <div className="header-social-links">
                     <a href="https://x.com/" target='_blank' rel="noopener noreferrer" className="twitter"><i className="bi bi-twitter-x"></i></a>
                     <a href="https://www.facebook.com/" target='_blank' rel="noopener noreferrer" className="facebook"><i className="bi bi-facebook"></i></a>
                     <a href="https://www.instagram.com/" target='_blank' rel="noopener noreferrer" className="instagram"><i className="bi bi-instagram"></i></a>
                     <a href="https://www.linkedin.com/" target='_blank' rel="noopener noreferrer" className="linkedin"><i className="bi bi-linkedin"></i></a>
-                </div>
             </div>
             <div className="sidebar-icon" onClick={() => showSideBar()}>
                 <div className='sidebar-div'>
