@@ -168,7 +168,7 @@
       max-width: 650px;
       padding: 0 2rem;
       .slider-track {
-        height: 420px;
+        height: 500px;
       }
     }
     .section-header h2 {
@@ -246,18 +246,32 @@
   @media (max-width: 400px) {
     padding: 1.5rem 0.2rem;
 
+    .section-header h2 {
+      font-size: 1.1rem !important;
+    }
+    .section-header p {
+      font-size: 0.85rem !important;
+    }
     .testimonial-slider {
       padding: 0;
+      max-width: 100%;
       .slider-track {
-        height: 250px;
+        height: 400px;
+      }
+      .slider-arrow {
+        width: 26px;
+        height: 26px;
+        font-size: 0.9rem;
       }
     }
     .testimonial-card {
       padding: 0.7rem !important;
     }
-    .client-avatar {
+    .testimonial-card .client-image-container .client-avatar {
       width: 40px !important;
       height: 40px !important;
+      display: block;
+      margin: 0 auto;
     }
     .author-avatar {
       width: 35px !important;
