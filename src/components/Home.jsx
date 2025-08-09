@@ -23,12 +23,13 @@ const Home = () => {
       <div className='author'>
         <div className="description header-child" data-aos='fade-right'>
           <div className="description-inner-div">
-            <h1>I am <span className='author_name'>Rao Ali Tahir</span> </h1>
-            <h2>Expert Lead Generation Strategist</h2>
+            <h1>I am <span className='author_name'><br></br>Rao Ali Tahir</span> </h1>
+            <h3>Expert Business Developer</h3>
+            <h3>Lead Generation Specialist</h3>
             <br />
-            <br />
-            <h3>Combining data-driven insights</h3>
-            <h4>Results-driven Business Developer</h4>
+            {/* <br /> */}
+            {/* <h3>Combining data-driven insights</h3> */}
+            {/* <h4>Results-driven Business Developer</h4> */}
 
             <h3><span ref={textRef} style={{ color: 'blueviolet' }}></span></h3>
             <br />

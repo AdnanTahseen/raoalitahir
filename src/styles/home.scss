@@ -1,8 +1,6 @@
-@import url('../global.scss');
+@import '../global.scss';
 
-* {
-    box-sizing: border-box;
-}
+
 
 .author {
     width: 100%;
@@ -12,6 +10,7 @@
     height: 100vh;
     background-color: #030303;
     margin-top: 70px;
+
     .description {
         display: flex;
         flex-direction: column;
@@ -22,7 +21,7 @@
 
         .description-inner-div {
             width: 80%;
-            align-self: self-end;
+            align-self: flex-end;
             // border: 1px solid grey;
             padding: 20px;
             border-radius: 20px;
@@ -55,12 +54,24 @@
                     2px 2px 2px #45efcd,
                     2px 2px 6px #ef4594,
                     2px 2px 6px #3e10bd,
-                    2px 2px 6px #cc8b12,
-                ;
+                    2px 2px 6px #cc8b12;
             }
         }
 
-        .description-inner-div::after,
+        .description-inner-div::after {
+            content: '';
+            position: absolute;
+            width: 101%;
+            height: 101%;
+            background-color: #ff0000;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border-radius: 20px;
+            z-index: -10;
+            background-image: conic-gradient(#ff0000, #0000ff, #2b2b6b, #ff0000);
+        }
+
         .description-inner-div::before {
             content: '';
             position: absolute;
@@ -72,10 +83,7 @@
             transform: translate(-50%, -50%);
             border-radius: 20px;
             z-index: -10;
-            background-image: conic-gradient( #ff0000, #0000ff, #2b2b6b, #ff0000);
-        }
-
-        .description-inner-div::before {
+            background-image: conic-gradient(#ff0000, #0000ff, #2b2b6b, #ff0000);
             filter: blur(50px);
             opacity: 0.5;
         }
@@ -93,7 +101,7 @@
         overflow: hidden;
 
         .logo {
-            height: 70vh;
+            height: 100vh;
             object-fit: contain;
         }
     }
@@ -108,6 +116,7 @@
             width: 100%;
             height: auto;
             padding: 20px;
+
             .description-inner-div {
                 width: 70%;
                 align-self: center;
@@ -119,13 +128,16 @@
                 h1 {
                     font-size: 2rem;
                 }
-                h2{
+
+                h2 {
                     font-size: 1.5rem;
                 }
-                h3{
+
+                h3 {
                     font-size: 1.2rem;
                 }
-                h4{
+
+                h4 {
                     font-size: 1rem;
                 }
             }
@@ -142,8 +154,9 @@
             }
         }
     }
-    
+
 }
+
 @media screen and (max-width: 991px) and (min-width: 768px) {
     .author {
         flex-direction: column;
@@ -161,15 +174,19 @@
                 flex-direction: column;
                 align-items: center;
                 justify-content: center;
+
                 h1 {
                     font-size: 2rem;
                 }
+
                 h2 {
                     font-size: 1.5rem;
                 }
+
                 h3 {
                     font-size: 1.2rem;
                 }
+
                 h4 {
                     font-size: 1rem;
                 }
@@ -188,10 +205,10 @@
             }
         }
     }
-    
+
 }
-@media screen and (max-width: 767px) and (min-width: 576px)
-{
+
+@media screen and (max-width: 767px) and (min-width: 576px) {
     .author {
         flex-direction: column;
         height: auto;
@@ -208,15 +225,19 @@
                 flex-direction: column;
                 align-items: center;
                 justify-content: center;
+
                 h1 {
                     font-size: 2rem;
                 }
+
                 h2 {
                     font-size: 1.5rem;
                 }
+
                 h3 {
                     font-size: 1.2rem;
                 }
+
                 h4 {
                     font-size: 1rem;
                 }
@@ -235,6 +256,7 @@
         }
     }
 }
+
 @media screen and (max-width: 575px) {
     .author {
         flex-direction: column;
@@ -252,15 +274,19 @@
                 flex-direction: column;
                 align-items: center;
                 justify-content: center;
+
                 h1 {
                     font-size: 2rem;
                 }
+
                 h2 {
                     font-size: 1.5rem;
                 }
+
                 h3 {
                     font-size: 1.2rem;
                 }
+
                 h4 {
                     font-size: 1rem;
                 }
@@ -278,5 +304,5 @@
             }
         }
     }
-    
+
 }

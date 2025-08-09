@@ -6,7 +6,7 @@ const License = () => {
     <h2>Licences and Certifications</h2>
     <div className="certificate_sections">
         <div className="license" data-aos='zoom-in'>
-            <caption>HubSpot Email Marketing Specialist</caption>
+            <h3>HubSpot Email Marketing Specialist</h3>
             <img src="/images/License_Certifications/HubSpot Email Marketing Certified.jpg" alt="" />
             <ul>
                 <li>Email Marketing</li>
@@ -17,7 +17,7 @@ const License = () => {
             </ul>
         </div>
         <div className="license"  data-aos='zoom-out'>
-            <caption>LemList Multichannel Outreach Specialist</caption>
+            <h3>LemList Multichannel Outreach Specialist</h3>
             <img src="/images/License_Certifications/LemList_Multichannel Outreach MasterClass.jpg" alt="" />
              <ul>
                 <li>Multi-Channel Marketing</li>

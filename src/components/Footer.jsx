@@ -16,7 +16,7 @@ const Footer = () => {
                     <a href="https://www.linkedin.com/" target='_blank' rel="noopener noreferrer" className="linkedin"><i className="bi bi-linkedin"></i></a>
                 </div>                                                                                                                                                          
                 <div className="credits">
-                    <Link to='https://mradnantahseen.netlify.app/' >Developed by <span style={{color:'#9570ecff', fontSize:'20px', fontWeight:'bolder', fontStyle:'italic'}}>TheTechRhino</span></Link>
+                    <Link to='https://mradnantahseen.netlify.app/' >Developed by <span style={{color:'#9570ecff', fontSize:'20px', fontWeight:'bolder', fontStyle:'italic'}}>THR. Digital</span></Link>
                 </div>
             </div>
 
